@@ -1,0 +1,14 @@
+#include<stdio.h>
+
+int main()
+{
+    int a = 1234,sum=0,temp;
+    while(a>0)
+    {
+       temp=a%10;
+       sum=sum+temp;
+       a=a/10;
+    }
+    printf("%d",sum);
+    
+}
